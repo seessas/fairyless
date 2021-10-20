@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 254, 255);
+    }
+    #centerbox {
+    width: 70%;
+    max-width: 800px;
+    min-width: 500px;
+    margin: 20px auto 20px auto;
+    }
+    #kolumncontainer {
+    float: left;
+    width: 95%;
+    margin: 0px;
+    padding: 10px;
+    border: 4px double #000;
+    }
+    #sidhuvud {
+        position: relative;
+    
+    background: #daacda;
+    padding: 21px;
+    border-bottom: 4px double #000;
+    margin: 5px;
+    height: 30px;
+    top: -30px;
+    width: 1182px;
+    left: -17px;
+    }
+    #kolumn1 {
+    float: left;
+    width: 50%;
+    min-height: 350px;
+    padding: 0 1% 11% 0%;
+    background: #c5e2f0;
+    border-right: 4px double #000;
+    }
+    #kolumn2 {
+    float: left;
+    width: 370px;
+    min-height: 320px;
+    padding:  100px 107px 62px;
+    background: #c5e2f0;
+    }
+    .link1{
+        position:absolute;
+        width: 200px;
+        left: 820px;
+        top: 32px;
+        color: #fc0404;
+        font-weight: bolder;
+        z-index: 3;
+            
+    }
+
+    .link2{
+        position:absolute;
+        width: 200px;
+        left: 620px;
+        top: 32px;
+        color: #e2fc54;
+        font-weight:bolder;
+        z-index: 2;
+    }
+
+    .link3{
+        position:absolute;
+        width: 200px;
+        left: 410px;
+        top: 32px;
+        color: #05fc57;
+        font-weight:bolder;
+        z-index: 1;
+    }
+
+        
+        .logo{
+            position: absolute;
+            left: 20px;
+            top: 23px;
+            width: 100px;
+            height: 60px;
+        }
+
+        .tandfe{
+            position:absolute;
+            width: 620px;
+            height: 490px;
+            top: 128px;
+            left: 5px;
+        }
+
+        .p1{
+       
+            position:absolute;
+           font-style: italic;
+           width: 300px;
+           padding: 50px;
+           height: 2000px;
+           left: 730px;
+           top: 130px;
+            }
+    
+            .rubrik{
+    
+                position:absolute;
+              font-style: italic;
+              width: 300px;
+              padding: 50px;
+              height: 2000px;
+              left: 800px;
+              top: 70px;
+              text-decoration: underline;
+            }
+
+            .button {
+                position: relative;
+                top: -60px;
+                left: 1060px;
+                display: inline-block;
+                padding: 12px 24px;
+                border-radius: 6px;
+                border: 0;
+                font-weight: bold;
+                letter-spacing: 0.0625em;
+                text-transform: uppercase;
+                background: #2f2d52;
+                color: rgb(253, 252, 252);
+                }
+                
+                .button:hover,
+                .button:focus,
+                .button:active {
+                background: #9e5993;
+                color: rgb(255, 255, 255);
+                }
+                .box1{
+                    background-color: rgb(173, 224, 247);
+                    border-bottom:rgb(5, 5, 5);
+                    width: 630px;
+                    height: 10px;
+                    margin: 0px;;
+                    padding: 20px;
+                    position:absolute;
+                    top: 26px;
+                    left: 360px;
+                    border: 3px double rgb(7, 7, 7);
+                }
+
